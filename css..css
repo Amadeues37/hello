@@ -1,0 +1,25 @@
+body {
+    background-color: #f0f8ff; /* 给网页身体加上爱丽丝蓝背景 */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 换一个好看的字体 */
+}
+h1 {
+    color: #2c3e50;       /* 换颜色：深蓝灰色，比纯黑更有质感 */
+    text-align: center;   /* 水平居中 */
+    font-size: 2.5rem;    /* 字体大小：比默认大一倍 */
+    margin-top: 30px;     /* 上边距：让标题不要贴在最顶上，留出呼吸空间 */
+}
+img {
+    display: block;           /* 让图片变成块级元素，方便居中 */
+    margin: 20px auto;        /* 上下留 20px 间距，左右自动居中 */
+    border-radius: 12px;      /* 圆角：四个角变圆润 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 投影：让图片浮起来 */
+    max-width: 100%;          /* 响应式：图片不会超出屏幕宽度 */
+}
+video {
+    display: block;           /* 变成块级元素，方便居中 */
+    margin: 20px auto;        /* 上下留 20px，左右自动居中 */
+    border-radius: 12px;      /* 圆角 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25); /* 投影 */
+    max-width: 100%;          /* 不超出屏幕宽度 */
+    background-color: #000;   /* 视频加载前的黑色底，防止白边 */
+}
